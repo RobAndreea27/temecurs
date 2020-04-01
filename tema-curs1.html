@@ -1,0 +1,34 @@
+<html>
+<body>
+ 	<script>
+		console.log("asta e tema 1.2");
+		const Pi=3.14;
+		var raza=10 ;
+		var aria=Pi*raza*raza;
+		console.log( 'aria egal'+aria );
+
+		console.log("asta e tema1.3");
+			var tablouFilme=["Titlu de film romantic", "Titlu de film de comedie","Titlu de film horror","Titlu de film drama", "Titlu de film de actiune"];
+			var index;
+			for (index=0; index<=4; index++){
+				console.log ( tablouFilme[index],index);
+			}
+
+		console.log("asta e tema1.4");
+			var tablouNumere=[5,3,"1",7,"9",30,"45",7];
+			var index;
+			var numarulMinim=100;
+			var numarulMaxim=0;
+			
+			for (index=0; index<=7; index++){
+				if (Number.isInteger(tablouNumere[index])){ 
+					if ( numarulMinim >  tablouNumere[index]) numarulMinim=tablouNumere[index];
+					if ( numarulMaxim < tablouNumere[index]) numarulMaxim=tablouNumere[index];}}
+			console.log ("Numarul maxim este " +numarulMaxim,"  ", "Numarul minim este " +numarulMinim);
+	
+
+	
+	</script>	
+	
+</body>
+</html>
